@@ -17,12 +17,25 @@
         }
         
         body {
-            font-family: 'brandon-grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: 'source-sans-pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: #000;
             color: #fff;
-            font-weight: 330;
-            font-size: 16px;
+            font-weight: 300;
+            font-size: 18px;
             line-height: 1.7;
+            letter-spacing: 0.04em;
+        }
+        
+        /* Brandon Grotesque for headings and UI */
+        .section-title,
+        .block-title,
+        .nav-link,
+        .sidebar-brand,
+        .sidebar-tagline,
+        .nav-section-title,
+        .swatch-name,
+        .gradient-name {
+            font-family: 'brandon-grotesque', sans-serif;
         }
         
         /* Layout */
@@ -79,7 +92,7 @@
         }
         
         .nav-section {
-            padding: 20px 0;
+            padding: 20px 30px;
             border-bottom: 1px solid rgba(255,255,255,0.05);
         }
         
@@ -88,24 +101,24 @@
         }
         
         .nav-section-title {
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 500;
             letter-spacing: 2px;
             text-transform: uppercase;
             color: rgba(255,255,255,0.3);
-            padding: 0 30px;
+            padding: 0;
             margin-bottom: 12px;
         }
         
         .nav-link {
             display: block;
-            padding: 10px 30px;
+            padding: 10px 0;
             color: rgba(255,255,255,0.6);
             text-decoration: none;
             font-size: 20px;
             font-weight: 400;
             transition: all 0.2s ease;
-            border-left: 2px solid transparent;
+            border-left: none;
         }
         
         .nav-link:hover {
@@ -115,13 +128,12 @@
         
         .nav-link.active {
             color: #fff;
-            border-left-color: #80D5FF;
             background: rgba(128, 213, 255, 0.05);
         }
         
         .nav-link.sub-brand {
-            padding-left: 45px;
-            font-size: 13px;
+            padding-left: 15px;
+            font-size: 18px;
         }
         
         .sidebar-footer {
@@ -154,7 +166,7 @@
         }
         
         .section-label {
-            font-size: 11px;
+            font-size: 16px;
             font-weight: 500;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -189,7 +201,7 @@
         }
         
         .block-title {
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 500;
             letter-spacing: 1.5px;
             text-transform: uppercase;
@@ -248,13 +260,13 @@
         }
         
         .swatch-name {
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 400;
             margin-bottom: 4px;
         }
         
         .swatch-value {
-            font-size: 12px;
+            font-size: 15px;
             color: rgba(255,255,255,0.4);
             font-family: 'SF Mono', Monaco, monospace;
         }
@@ -287,19 +299,19 @@
         }
         
         .gradient-name {
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 400;
             margin-bottom: 6px;
         }
         
         .gradient-use {
-            font-size: 12px;
+            font-size: 18px;
             color: rgba(255,255,255,0.5);
             margin-bottom: 8px;
         }
         
         .gradient-code {
-            font-size: 11px;
+            font-size: 15px;
             color: rgba(255,255,255,0.35);
             font-family: 'SF Mono', Monaco, monospace;
             word-break: break-all;
@@ -327,7 +339,7 @@
         }
         
         .type-label {
-            font-size: 11px;
+            font-size: 18px;
             color: rgba(255,255,255,0.4);
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -335,7 +347,7 @@
         }
         
         .type-specs {
-            font-size: 11px;
+            font-size: 18px;
             color: rgba(255,255,255,0.35);
             font-family: 'SF Mono', Monaco, monospace;
             margin-top: 10px;
@@ -387,7 +399,7 @@
         .specs-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
+            font-size: 18px;
         }
         
         .specs-table th,
@@ -399,7 +411,7 @@
         
         .specs-table th {
             font-weight: 500;
-            font-size: 11px;
+            font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             color: rgba(255,255,255,0.4);
@@ -436,7 +448,7 @@
         }
         
         .placeholder-text {
-            font-size: 14px;
+            font-size: 18px;
             letter-spacing: 1px;
         }
         
@@ -455,7 +467,7 @@
             padding: 6px 16px;
             background: linear-gradient(135deg, #007bc4 0%, #009188 100%);
             border-radius: 50px;
-            font-size: 11px;
+            font-size: 14px;
             font-weight: 500;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -528,7 +540,7 @@
                 border-left: none;
                 border-radius: 20px;
                 background: rgba(255,255,255,0.05);
-                font-size: 13px;
+                font-size: 16px;
             }
             
             .nav-link:hover,
@@ -652,15 +664,15 @@
             }
             
             .gradient-name {
-                font-size: 13px;
+                font-size: 16px;
             }
             
             .gradient-use {
-                font-size: 11px;
+                font-size: 16px;
             }
             
             .gradient-code {
-                font-size: 10px;
+                font-size: 14px;
             }
             
             .type-specimen {
@@ -699,14 +711,14 @@
         }
         
         .info-card-title {
-            font-size: 13px;
+            font-size: 18px;
             font-weight: 500;
             margin-bottom: 8px;
             color: rgba(255,255,255,0.9);
         }
         
         .info-card-value {
-            font-size: 12px;
+            font-size: 18px;
             color: rgba(255,255,255,0.5);
             font-family: 'SF Mono', Monaco, monospace;
         }
@@ -746,6 +758,7 @@
                     <span class="sidebar-brand">F1R3FLY</span>
                 </div>
                 <div class="sidebar-tagline">Brand Guidelines</div>
+                <div class="sidebar-contact" style="font-size: 14px; color: rgba(255,255,255,0.5); margin-top: 12px;">Hannah Adams<br><a href="mailto:hannah.adams.design@gmail.com" style="color: rgba(255,255,255,0.5); text-decoration: none;">hannah.adams.design@gmail.com</a></div>
             </div>
             
             <div class="nav-section">
@@ -756,7 +769,7 @@
             <div class="nav-section">
                 <div class="nav-section-title">Brand Elements</div>
                 <a href="#colors" class="nav-link">Colors &amp; Gradients</a>
-                <a href="#typography" class="nav-link">Typography</a>
+                <a href="#typography" class="nav-link">Brand Typography</a>
                 <a href="#logo" class="nav-link">Logo</a>
                 <a href="#imagery" class="nav-link">Brand Imagery</a>
             </div>
@@ -764,6 +777,7 @@
             <div class="nav-section">
                 <div class="nav-section-title">Digital</div>
                 <a href="#website" class="nav-link">Website Style Guide</a>
+                <a href="#website-typography" class="nav-link sub-brand">Website Typography</a>
             </div>
             
             <div class="nav-section">
@@ -792,12 +806,14 @@
                 <div class="section-intro">Outstanding questions to clarify brand direction, naming conventions, and visual identity decisions.</div>
                 
                 <div class="content-block">
-                    <img src="images/firstquestion.png" alt="Brand Architecture Question" style="max-width: 75%; border-radius: 12px; margin-bottom: 30px;">
                     <div class="prose">
                         <p><strong>1. Website:</strong> In development are F1R3FLY.IO and perhaps a brand refresh on F1R3FLY.com. The subsidiaries Medical and Arts/Entertainment etc, will be developing their own websites. Should we give them a brand kit and website template?</p>
                         <p><strong>2.</strong> Should F1R3FLY.com be the forward facing client and partner less-tech site? In that case, perhaps we should make F1R3FLY.com more refined with the brand, and visual storytelling, and make F1R3FLY.IO a more direct development website without a lot of visual nuance unless we have good reason to do that.</p>
                         <p><strong>3.</strong> The content of the dev site and the partner/client site needs to be clarified.</p>
+                        <p style="margin-top: 30px;">Please check the hierarchy and let's have a meeting to discuss. Do not hesitate to reach out. 360 622 9780 or hannah.adams.design@gmail.com</p>
                     </div>
+                    <div class="block-title" style="margin-top: 40px;">Brand Architecture</div>
+                    <img src="images/firstquestion.png" alt="Brand Architecture Question" style="max-width: 75%; border-radius: 12px; margin-top: 20px;">
                 </div>
             </section>
             
@@ -901,53 +917,37 @@
                 </div>
             </section>
             
-            <!-- Typography -->
+            <!-- Brand Typography -->
             <section id="typography" class="section">
                 <div class="section-label">Brand Elements</div>
-                <div class="section-title">Typography</div>
-                <div class="section-intro">Brandon Grotesque serves as the primary typeface across all F1R3FLY brands, providing a modern, approachable feel that balances technical precision with warmth.</div>
+                <div class="section-title">Brand Typography</div>
+                <div class="section-intro">F1R3FLY uses a dual-typeface system: Brandon Grotesque for headings, navigation, labels, and UI elements; Source Sans Pro for body copy and longer-form content.</div>
                 
                 <div class="content-block">
-                    <div class="block-title">Type Specimens</div>
-                    <div class="type-specimen">
-                        <div class="type-example">
-                            <div class="type-label">Navigation / Hero Tagline</div>
-                            <div style="font-size: 18px; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase;">HOME &nbsp; ABOUT &nbsp; DEVELOPERS &nbsp; CLIENTS</div>
-                            <div style="font-size: 18px; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; background: linear-gradient(90deg, #80D5FF 0%, #C6E0AB 50%, #FFE867 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-top: 12px;">LIBERATING YOUR DATA FROM BIG TECH</div>
-                            <div class="type-specs">18px / weight 400 / letter-spacing 1.5px / uppercase — Hero uses gradient fill</div>
-                        </div>
-                        
-                        <div class="type-example">
-                            <div class="type-label">Section Heading (H2)</div>
-                            <div style="font-size: 35px; font-weight: 300; letter-spacing: 1px;">Revolutionizing Data Ownership</div>
-                            <div class="type-specs">35px (2.2rem) / weight 300 / letter-spacing 1px</div>
-                        </div>
-                        
-                        <div class="type-example">
-                            <div class="type-label">Card Heading (H3)</div>
-                            <div style="font-size: 18px; font-weight: 500;">Concurrent Computing Architecture</div>
-                            <div class="type-specs">18px / weight 500</div>
-                        </div>
-                        
-                        <div class="type-example">
-                            <div class="type-label">Body Copy</div>
-                            <div style="font-size: 18px; font-weight: 330; line-height: 1.7; color: rgba(255,255,255,0.85); max-width: 600px;">F1R3FLY enables individuals and organizations to take control of their data through decentralized infrastructure built on Rholang's concurrent computing model.</div>
-                            <div class="type-specs">18px / weight 330 / line-height 1.7 / rgba(255,255,255,0.85)</div>
-                        </div>
-                        
-                        <div class="type-example">
-                            <div class="type-label">Label / Category</div>
-                            <div style="font-size: 18px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; background: linear-gradient(90deg, #80D5FF 0%, #C6E0AB 50%, #FFE867 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DEVELOPERS</div>
-                            <div class="type-specs">18px / weight 700 / letter-spacing 1.5px / uppercase / gradient fill</div>
-                        </div>
+                    <div class="block-title">Primary Typeface — Brandon Grotesque</div>
+                    <div style="font-family: 'brandon-grotesque', sans-serif; font-size: 48px; font-weight: 300; letter-spacing: 1px; margin-bottom: 20px;">Aa Bb Cc Dd Ee Ff Gg</div>
+                    <div style="font-family: 'brandon-grotesque', sans-serif; font-size: 24px; font-weight: 400; letter-spacing: 0.5px; color: rgba(255,255,255,0.7); margin-bottom: 30px;">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789</div>
+                    <div class="placeholder">
+                        <div class="placeholder-icon">◇</div>
+                        <div class="placeholder-text">Additional brand typography guidelines and usage notes to be added</div>
+                    </div>
+                </div>
+                
+                <div class="content-block">
+                    <div class="block-title">Secondary Typeface — Source Sans Pro</div>
+                    <div style="font-family: 'source-sans-pro', sans-serif; font-size: 48px; font-weight: 300; letter-spacing: 0.04em; margin-bottom: 20px;">Aa Bb Cc Dd Ee Ff Gg</div>
+                    <div style="font-family: 'source-sans-pro', sans-serif; font-size: 24px; font-weight: 300; letter-spacing: 0.04em; color: rgba(255,255,255,0.7); margin-bottom: 30px;">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789</div>
+                    <div class="placeholder">
+                        <div class="placeholder-icon">◇</div>
+                        <div class="placeholder-text">Body copy usage guidelines and specifications to be added</div>
                     </div>
                 </div>
                 
                 <div class="content-block">
                     <div class="block-title">Font Source</div>
-                    <div class="prose-two-col">
-                        <p>Brandon Grotesque is licensed through Adobe Typekit. Include the following stylesheet in all web properties:</p>
-                        <p><code style="display: block; background: rgba(255,255,255,0.05); padding: 16px 20px; border-radius: 8px; font-size: 13px; color: #80D5FF;">https://use.typekit.net/mhz8bvz.css</code></p>
+                    <div class="prose">
+                        <p>Both Brandon Grotesque (headings/UI) and Source Sans Pro (body copy) are licensed through Adobe Typekit. Include the following stylesheet in all web properties:</p>
+                        <p><code style="display: block; background: rgba(255,255,255,0.05); padding: 16px 20px; border-radius: 8px; font-size: 16px; color: #80D5FF;">https://use.typekit.net/mhz8bvz.css</code></p>
                     </div>
                 </div>
             </section>
@@ -960,18 +960,16 @@
                 
                 <div class="content-block">
                     <div class="block-title">Logo Variations</div>
-                    <div class="placeholder">
-                        <div class="placeholder-icon">◇</div>
-                        <div class="placeholder-text">Logo assets and usage guidelines coming soon</div>
-                    </div>
+                    <img src="images/icon and text specs.png" alt="Logo Horizontal Variations" style="max-width: 80%; border-radius: 12px; margin-bottom: 30px;">
+                    <img src="images/icon and text specs vert.png" alt="Logo Vertical Variations" style="max-width: 55%; border-radius: 12px;">
                 </div>
                 
                 <div class="content-block">
-                    <div class="block-title">Clear Space &amp; Minimum Size</div>
-                    <div class="placeholder">
-                        <div class="placeholder-icon">◇</div>
-                        <div class="placeholder-text">Spacing specifications and minimum size requirements</div>
+                    <div class="block-title">Logo Clear Space</div>
+                    <div class="prose">
+                        <p>Minimum clear space for the logo should equal 25% of the total height of the logo. This tolerance should be the same all the way around the logo and measured from the middle, top and bottom edges when it is used as a stand alone icon.</p>
                     </div>
+                    <img src="images/icon specs.png" alt="Logo Clear Space Specifications" style="max-width: 60%; border-radius: 12px; margin-top: 30px;">
                 </div>
             </section>
             
@@ -1142,6 +1140,49 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </section>
+            
+            <!-- Website Typography -->
+            <section id="website-typography" class="section">
+                <div class="section-label">Digital</div>
+                <div class="section-title">Website Typography</div>
+                <div class="section-intro">Type specimens and specifications for F1R3FLY web properties.</div>
+                
+                <div class="content-block">
+                    <div class="block-title">Type Specimens</div>
+                    <div class="type-specimen">
+                        <div class="type-example">
+                            <div class="type-label">Navigation / Hero Tagline</div>
+                            <div style="font-size: 18px; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; font-family: 'brandon-grotesque', sans-serif;">HOME &nbsp; ABOUT &nbsp; DEVELOPERS &nbsp; CLIENTS</div>
+                            <div style="font-size: 18px; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; background: linear-gradient(90deg, #80D5FF 0%, #C6E0AB 50%, #FFE867 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-top: 12px; font-family: 'brandon-grotesque', sans-serif;">LIBERATING YOUR DATA FROM BIG TECH</div>
+                            <div class="type-specs">Brandon Grotesque / 18px / weight 400 / letter-spacing 1.5px / uppercase — Hero uses gradient fill</div>
+                        </div>
+                        
+                        <div class="type-example">
+                            <div class="type-label">Section Heading (H2)</div>
+                            <div style="font-size: 35px; font-weight: 300; letter-spacing: 1px; font-family: 'brandon-grotesque', sans-serif;">Revolutionizing Data Ownership</div>
+                            <div class="type-specs">Brandon Grotesque / 35px (2.2rem) / weight 300 / letter-spacing 1px</div>
+                        </div>
+                        
+                        <div class="type-example">
+                            <div class="type-label">Card Heading (H3)</div>
+                            <div style="font-size: 18px; font-weight: 500; font-family: 'brandon-grotesque', sans-serif;">Concurrent Computing Architecture</div>
+                            <div class="type-specs">Brandon Grotesque / 18px / weight 500</div>
+                        </div>
+                        
+                        <div class="type-example">
+                            <div class="type-label">Body Copy</div>
+                            <div style="font-size: 18px; font-weight: 300; line-height: 1.7; letter-spacing: 0.04em; color: rgba(255,255,255,0.85); max-width: 600px; font-family: 'source-sans-pro', sans-serif;">F1R3FLY enables individuals and organizations to take control of their data through decentralized infrastructure built on Rholang's concurrent computing model.</div>
+                            <div class="type-specs">Source Sans Pro / 18px / weight 300 / line-height 1.7 / letter-spacing 0.04em / rgba(255,255,255,0.85)</div>
+                        </div>
+                        
+                        <div class="type-example">
+                            <div class="type-label">Label / Category</div>
+                            <div style="font-size: 18px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; background: linear-gradient(90deg, #80D5FF 0%, #C6E0AB 50%, #FFE867 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: 'brandon-grotesque', sans-serif;">DEVELOPERS</div>
+                            <div class="type-specs">Brandon Grotesque / 18px / weight 700 / letter-spacing 1.5px / uppercase / gradient fill</div>
+                        </div>
+                    </div>
                 </div>
             </section>
             
