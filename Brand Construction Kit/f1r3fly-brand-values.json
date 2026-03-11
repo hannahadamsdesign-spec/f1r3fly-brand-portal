@@ -1,0 +1,105 @@
+{
+  "_comment": "F1R3FLY Brand Values — machine-readable. Import into build scripts.",
+  "entities": {
+    "industries": {
+      "name": "F1R3FLY Industries",
+      "wordmark": "F1R3FLY INDUSTRIES",
+      "role": "Parent company",
+      "logo_icon": "Trefoil knot (The Mark)",
+      "logo_files": {
+        "horizontal": "f1r3fly-industries-horizontal-logo",
+        "horizontal_black": "f1r3fly-industries-horizontal-logo-black",
+        "vertical": "f1r3fly-industries-vertical-logo",
+        "vertical_black": "f1r3fly-industries-vertical-logo-black",
+        "icon_only": "f1r3fly-knot-icon-alone",
+        "icon_only_black": "f1r3fly-knot-icon-alone-black",
+        "circle": "circle-f1r3fly-industries-logo"
+      },
+      "formats_available": ["svg", "png", "pdf"]
+    },
+    "io": {
+      "name": "F1R3FLY.IO",
+      "wordmark": "F1R3FLY.IO",
+      "role": "Developer platform (subsidiary)",
+      "logo_icon": "Firefly bug"
+    }
+  },
+  "colors": {
+    "background": {"hex": "#0A0A0A", "rgb": [10, 10, 10], "role": "Brand surface"},
+    "white": {"hex": "#FFFFFF", "rgb": [255, 255, 255]},
+    "brand_yellow": {"hex": "#F3D630", "rgb": [243, 214, 48], "role": "Primary accent, gradient warm end"},
+    "brand_sage": {"hex": "#8BB999", "rgb": [139, 185, 153], "role": "Secondary accent, gradient midpoint"},
+    "brand_sky": {"hex": "#3FA9F5", "rgb": [63, 169, 245], "role": "Tertiary accent, gradient cool end"},
+    "client_purple": {"hex": "#5C0269", "rgb": [92, 2, 105], "role": "Client/enterprise"},
+    "client_scarlet": {"hex": "#7B0429", "rgb": [123, 4, 41], "role": "Client/enterprise"},
+    "dev_blue": {"hex": "#007BC4", "rgb": [0, 123, 196], "role": "Developer section"},
+    "dev_teal": {"hex": "#009188", "rgb": [0, 145, 136], "role": "Developer section"},
+    "partner_green": {"hex": "#0C8E23", "rgb": [12, 142, 35], "role": "Partner section"},
+    "partner_lime": {"hex": "#7A9D0E", "rgb": [122, 157, 14], "role": "Partner section"},
+    "neutral_indigo": {"hex": "#2E31AE", "rgb": [46, 49, 174], "role": "Neutral/general"},
+    "neutral_gray": {"hex": "#3F3F3F", "rgb": [63, 63, 63], "role": "Neutral/general"}
+  },
+  "gradient": {
+    "primary": {
+      "type": "linear",
+      "direction": "left to right",
+      "stops": [
+        {"color": "#3FA9F5", "position": "0%", "name": "Sky"},
+        {"color": "#F3D630", "position": "100%", "name": "Yellow"}
+      ],
+      "css": "linear-gradient(to right, #3FA9F5, #F3D630)",
+      "note": "Two stops only. Sage-green midpoint is natural color math, not a third stop."
+    },
+    "stroke_weight": "0.5px"
+  },
+  "typography": {
+    "display": {
+      "family": "Josefin Sans",
+      "license": "SIL Open Font License (Google Fonts)",
+      "weights": [100, 200, 300, 400, 500, 600, 700],
+      "cdn": "https://cdn.jsdelivr.net/fontsource/fonts/josefin-sans@latest/latin-{weight}-normal.ttf",
+      "google_fonts": "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "Source Sans 3",
+      "license": "SIL Open Font License (Google Fonts)",
+      "cdn": "https://cdn.jsdelivr.net/fontsource/fonts/source-sans-3@latest/latin-{weight}-normal.ttf",
+      "google_fonts": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap"
+    },
+    "legacy": {
+      "family": "Brandon Grotesque",
+      "status": "Fixed vector logo wordmarks ONLY — never in editable materials"
+    }
+  },
+  "type_hierarchy": {
+    "page_header": {"size_ratio": 1.0, "font": "Josefin Sans or Source Sans 3 (ask)", "weight": 700, "case": "ALL-CAPS", "spacing": "~2.5pt", "color": "white"},
+    "eyebrow": {"size_ratio": 0.3, "font": "Josefin Sans", "weight": 600, "case": "ALL-CAPS", "color": "brand_yellow"},
+    "subheader": {"size_ratio": 0.6, "font": "Josefin Sans", "weight": 400, "case": "Sentence case", "color": "brand_yellow or white"},
+    "column_header": {"size_ratio": 0.3, "font": "Josefin Sans", "weight": 400, "case": "lowercase", "color": "brand_yellow"},
+    "body": {"size_ratio": 0.3, "font": "Source Sans 3", "weight": 300, "case": "Sentence case", "color": "white"},
+    "footer": {"size_fixed": "7pt", "font": "Josefin Sans", "weight": 700, "case": "ALL-CAPS", "color": "brand_sage"}
+  },
+  "grid": {
+    "columns": 6,
+    "margin_percent": 8.3,
+    "gutter_percent": 2.0,
+    "origin": "Derived from 60/20/20 logo proportion"
+  },
+  "vertical_zones": {
+    "title_zone": {"top": "8.3%", "bottom": "20%", "note": "Page title + gradient underline"},
+    "eyebrow_zone": {"top": "22%", "bottom": "27%"},
+    "content_zone": {"top": "31%", "bottom": "93%"},
+    "footer_zone": {"top": "93%", "bottom": "100%"}
+  },
+  "logo_clearspace": {
+    "minimum": "40% of knot icon width on all four sides",
+    "note": "40% is the floor, not the target. More is better."
+  },
+  "pptx_theme_slots": {
+    "dk1": "#000000", "lt1": "#FFFFFF",
+    "dk2": "#5C0269", "lt2": "#7B0429",
+    "accent1": "#F3D630", "accent2": "#8BB999", "accent3": "#3FA9F5",
+    "accent4": "#007BC4", "accent5": "#009188", "accent6": "#0C8E23",
+    "hlink": "#7A9D0E", "folHlink": "#3F3F3F"
+  }
+}
