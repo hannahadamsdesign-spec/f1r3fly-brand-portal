@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820 940">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3fa9f5;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        stroke: #3f3f3f;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-2, .cls-17, .cls-18, .cls-19, .cls-20 {
+        fill: #fff;
+      }
+
+      .cls-21 {
+        fill: url(#F1R3FLY_Neutral_Indigo-Gray_);
+      }
+
+      .cls-17 {
+        font-size: 17px;
+      }
+
+      .cls-17, .cls-18 {
+        font-family: SourceSans3-Bold, 'Source Sans 3';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #82c7f8;
+      }
+
+      .cls-4 {
+        fill: #1114ad;
+      }
+
+      .cls-22 {
+        fill: url(#F1R3FLY_Partner_Green-Lime_);
+      }
+
+      .cls-5 {
+        fill: #009188;
+      }
+
+      .cls-6 {
+        fill: #7b0429;
+      }
+
+      .cls-7 {
+        fill: #3f3f3f;
+      }
+
+      .cls-23 {
+        fill: url(#F1R3FLY_Developer_Blue-Teal_);
+      }
+
+      .cls-8 {
+        fill: #f3d630;
+      }
+
+      .cls-24 {
+        letter-spacing: 0em;
+      }
+
+      .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        fill: #7a9d0e;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        fill: #003257;
+      }
+
+      .cls-28 {
+        letter-spacing: 0em;
+      }
+
+      .cls-29 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: #007bc4;
+      }
+
+      .cls-30 {
+        letter-spacing: 0em;
+      }
+
+      .cls-31 {
+        fill: url(#F1R3FLY_Primary_Yellow-Sky_);
+      }
+
+      .cls-18 {
+        font-size: 13px;
+      }
+
+      .cls-32 {
+        fill: url(#F1R3FLY_Client_Purple-Scarlet_);
+      }
+
+      .cls-13 {
+        fill: #5c0269;
+      }
+
+      .cls-33 {
+        letter-spacing: -.086em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.086em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.066em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.066em;
+      }
+
+      .cls-37 {
+        letter-spacing: -.076em;
+      }
+
+      .cls-38 {
+        letter-spacing: -.076em;
+      }
+
+      .cls-39 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-40 {
+        letter-spacing: -.025em;
+      }
+
+      .cls-41 {
+        letter-spacing: -.024em;
+      }
+
+      .cls-42 {
+        letter-spacing: -.024em;
+      }
+
+      .cls-43 {
+        letter-spacing: -.024em;
+      }
+
+      .cls-44 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-46 {
+        letter-spacing: -.021em;
+      }
+
+      .cls-47 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-48 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-49 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-50 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-51 {
+        letter-spacing: -.015em;
+      }
+
+      .cls-52 {
+        letter-spacing: -.017em;
+      }
+
+      .cls-53 {
+        letter-spacing: -.017em;
+      }
+
+      .cls-54 {
+        letter-spacing: -.019em;
+      }
+
+      .cls-55 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-56 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-57 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-58 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-19 {
+        font-size: 9px;
+      }
+
+      .cls-19, .cls-20 {
+        font-family: SourceSans3-Regular, 'Source Sans 3';
+      }
+
+      .cls-59 {
+        letter-spacing: -.037em;
+      }
+
+      .cls-60 {
+        letter-spacing: -.037em;
+      }
+
+      .cls-61 {
+        letter-spacing: -.036em;
+      }
+
+      .cls-62 {
+        letter-spacing: -.037em;
+      }
+
+      .cls-63 {
+        letter-spacing: -.043em;
+      }
+
+      .cls-64 {
+        letter-spacing: -.043em;
+      }
+
+      .cls-65 {
+        letter-spacing: -.041em;
+      }
+
+      .cls-20 {
+        font-size: 8px;
+      }
+
+      .cls-66 {
+        letter-spacing: -.047em;
+      }
+
+      .cls-67 {
+        letter-spacing: -.028em;
+      }
+
+      .cls-68 {
+        letter-spacing: -.028em;
+      }
+
+      .cls-69 {
+        letter-spacing: -.006em;
+      }
+
+      .cls-70 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-71 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-72 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-73 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-14 {
+        fill: #332b00;
+      }
+
+      .cls-74 {
+        letter-spacing: -.011em;
+      }
+
+      .cls-75 {
+        letter-spacing: -.011em;
+      }
+
+      .cls-76 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-77 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-78 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-79 {
+        letter-spacing: -.008em;
+      }
+
+      .cls-80 {
+        letter-spacing: -.008em;
+      }
+
+      .cls-15 {
+        fill: #0c8e23;
+      }
+
+      .cls-16 {
+        fill: #f7e478;
+      }
+
+      .cls-81 {
+        letter-spacing: .025em;
+      }
+
+      .cls-82 {
+        letter-spacing: .006em;
+      }
+
+      .cls-83 {
+        letter-spacing: .005em;
+      }
+
+      .cls-84 {
+        letter-spacing: .01em;
+      }
+
+      .cls-85 {
+        letter-spacing: .01em;
+      }
+
+      .cls-86 {
+        letter-spacing: .007em;
+      }
+
+      .cls-87 {
+        letter-spacing: .007em;
+      }
+    </style>
+    <linearGradient id="F1R3FLY_Client_Purple-Scarlet_" data-name="F1R3FLY Client (Purple-Scarlet)" x1="30" y1="534" x2="450" y2="534" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5c0269"/>
+      <stop offset="1" stop-color="#7b0429"/>
+    </linearGradient>
+    <linearGradient id="F1R3FLY_Developer_Blue-Teal_" data-name="F1R3FLY Developer (Blue-Teal)" x1="30" y1="578" x2="450" y2="578" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#007bc4"/>
+      <stop offset="1" stop-color="#009188"/>
+    </linearGradient>
+    <linearGradient id="F1R3FLY_Partner_Green-Lime_" data-name="F1R3FLY Partner (Green-Lime)" x1="30" y1="622" x2="450" y2="622" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c8e23"/>
+      <stop offset="1" stop-color="#7a9d0e"/>
+    </linearGradient>
+    <linearGradient id="F1R3FLY_Neutral_Indigo-Gray_" data-name="F1R3FLY Neutral (Indigo-Gray)" x1="30" y1="666" x2="450" y2="666" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1114ad"/>
+      <stop offset="1" stop-color="#3f3f3f"/>
+    </linearGradient>
+    <linearGradient id="F1R3FLY_Primary_Yellow-Sky_" data-name="F1R3FLY Primary (Yellow-Sky)" x1="31.125" y1="232" x2="591.125" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3d630"/>
+      <stop offset="1" stop-color="#3fa9f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="940"/>
+  <text class="cls-17" transform="translate(30 28.044)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-34" x="46.188" y="0">L</tspan><tspan x="53.532" y="0">Y B</tspan><tspan class="cls-80" x="76.142" y="0">R</tspan><tspan class="cls-29" x="86.427" y="0">AND </tspan><tspan class="cls-59" x="121.667" y="0">C</tspan><tspan x="130.933" y="0">O</tspan><tspan class="cls-61" x="142.561" y="0">L</tspan><tspan x="150.754" y="0">OR </tspan><tspan class="cls-44" x="176.203" y="0">S</tspan><tspan class="cls-54" x="185.349" y="0">Y</tspan><tspan class="cls-49" x="193.951" y="0">S</tspan><tspan class="cls-25" x="203.063" y="0">TEM — June 10, 2026</tspan></text>
+  <text class="cls-18" transform="translate(30 78.044)"><tspan x="0" y="0">PRIMA</tspan><tspan class="cls-51" x="36.984" y="0">R</tspan><tspan class="cls-30" x="44.758" y="0">Y — l</tspan><tspan class="cls-74" x="70.901" y="0">e</tspan><tspan x="77.492" y="0">ads </tspan><tspan class="cls-69" x="100.151" y="0">e</tspan><tspan class="cls-79" x="106.807" y="0">v</tspan><tspan x="113.502" y="0">e</tspan><tspan class="cls-87" x="120.236" y="0">r</tspan><tspan x="125.5" y="0">y F1R3F</tspan><tspan class="cls-33" x="170.194" y="0">L</tspan><tspan x="175.81" y="0">Y </tspan><tspan class="cls-78" x="185.235" y="0">r</tspan><tspan x="190.279" y="0">ep</tspan><tspan class="cls-78" x="204.461" y="0">r</tspan><tspan x="209.505" y="0">esen</tspan><tspan class="cls-48" x="236.168" y="0">t</tspan><tspan class="cls-50" x="240.887" y="0">a</tspan><tspan x="247.504" y="0">tion</tspan></text>
+  <rect class="cls-9" x="30" y="114" width="150" height="52"/>
+  <text class="cls-20" transform="translate(30 182.044)"><tspan x="0" y="0" xml:space="preserve">Black  #000000</tspan></text>
+  <rect class="cls-2" x="220" y="114" width="150" height="52"/>
+  <text class="cls-20" transform="translate(220 182.044)"><tspan x="0" y="0">Whi</tspan><tspan class="cls-57" x="12.608" y="0">t</tspan><tspan class="cls-28" x="15.2" y="0" xml:space="preserve">e  #FFFFFF</tspan></text>
+  <rect class="cls-8" x="410" y="114" width="150" height="52"/>
+  <text class="cls-20" transform="translate(410 182.044)"><tspan x="0" y="0">B</tspan><tspan class="cls-42" x="4.704" y="0">r</tspan><tspan x="7.288" y="0">and </tspan><tspan class="cls-65" x="21.736" y="0">Y</tspan><tspan x="25.216" y="0">ell</tspan><tspan class="cls-70" x="33.264" y="0">o</tspan><tspan x="37.567" y="0" xml:space="preserve">w  #F3D630</tspan></text>
+  <rect class="cls-1" x="600" y="114" width="150" height="52"/>
+  <text class="cls-20" transform="translate(600 182.044)"><tspan x="0" y="0">B</tspan><tspan class="cls-42" x="4.704" y="0">r</tspan><tspan x="7.288" y="0" xml:space="preserve">and Sky  #3</tspan><tspan class="cls-62" x="44.855" y="0">F</tspan><tspan class="cls-24" x="48.512" y="0">A9F5</tspan></text>
+  <text class="cls-18" transform="translate(30 293.044)"><tspan x="0" y="0">SE</tspan><tspan class="cls-60" x="14.352" y="0">C</tspan><tspan class="cls-27" x="21.437" y="0">ON</tspan><tspan class="cls-78" x="38.974" y="0">D</tspan><tspan class="cls-27" x="47.099" y="0">A</tspan><tspan class="cls-51" x="54.547" y="0">R</tspan><tspan class="cls-30" x="62.321" y="0">Y — </tspan><tspan class="cls-50" x="84.746" y="0">t</tspan><tspan x="89.491" y="0">opic / audien</tspan><tspan class="cls-67" x="162.862" y="0">c</tspan><tspan x="168.569" y="0">e </tspan><tspan class="cls-67" x="177.903" y="0">c</tspan><tspan x="183.61" y="0">olor </tspan><tspan class="cls-67" x="209.531" y="0">c</tspan><tspan x="215.238" y="0">oding onl</tspan><tspan class="cls-39" x="268.836" y="0">y</tspan><tspan x="274.83" y="0">, n</tspan><tspan class="cls-69" x="288.765" y="0">e</tspan><tspan class="cls-79" x="295.421" y="0">v</tspan><tspan x="302.116" y="0">er the l</tspan><tspan class="cls-75" x="342.078" y="0">e</tspan><tspan class="cls-27" x="348.669" y="0">ad</tspan></text>
+  <rect class="cls-13" x="30" y="325" width="150" height="52"/>
+  <text class="cls-20" transform="translate(30 393.044)"><tspan x="0" y="0" xml:space="preserve">Client Purple  #5C0269</tspan></text>
+  <rect class="cls-6" x="220" y="325" width="150" height="52"/>
+  <text class="cls-20" transform="translate(220 393.044)"><tspan x="0" y="0">Client S</tspan><tspan class="cls-76" x="25.496" y="0">c</tspan><tspan x="29.063" y="0">arl</tspan><tspan class="cls-77" x="37.911" y="0">e</tspan><tspan x="41.799" y="0" xml:space="preserve">t  #7B0429</tspan></text>
+  <rect class="cls-12" x="410" y="325" width="150" height="52"/>
+  <text class="cls-20" transform="translate(410 393.044)"><tspan x="0" y="0">D</tspan><tspan class="cls-83" x="4.92" y="0">e</tspan><tspan x="8.928" y="0" xml:space="preserve">v Blue  #007BC4</tspan></text>
+  <rect class="cls-5" x="600" y="325" width="150" height="52"/>
+  <text class="cls-20" transform="translate(600 393.044)"><tspan x="0" y="0">D</tspan><tspan class="cls-83" x="4.92" y="0">e</tspan><tspan x="8.928" y="0">v </tspan><tspan class="cls-36" x="14.264" y="0">T</tspan><tspan class="cls-56" x="18.023" y="0">e</tspan><tspan class="cls-24" x="21.88" y="0" xml:space="preserve">al  #009188</tspan></text>
+  <rect class="cls-15" x="30" y="423" width="150" height="52"/>
+  <text class="cls-20" transform="translate(30 491.044)"><tspan class="cls-64" x="0" y="0">P</tspan><tspan x="4.184" y="0">artner G</tspan><tspan class="cls-76" x="31.352" y="0">r</tspan><tspan x="34.047" y="0" xml:space="preserve">een  #0C8E23</tspan></text>
+  <rect class="cls-10" x="220" y="423" width="150" height="52"/>
+  <text class="cls-20" transform="translate(220 491.044)"><tspan class="cls-64" x="0" y="0">P</tspan><tspan x="4.184" y="0" xml:space="preserve">artner Lime  #7A9D0E</tspan></text>
+  <rect class="cls-4" x="410" y="423" width="150" height="52"/>
+  <text class="cls-20" transform="translate(410 491.044)"><tspan x="0" y="0">Neut</tspan><tspan class="cls-42" x="16.2" y="0">r</tspan><tspan class="cls-24" x="18.784" y="0">al Indi</tspan><tspan class="cls-55" x="39.343" y="0">g</tspan><tspan x="43.263" y="0" xml:space="preserve">o  #1114AD</tspan></text>
+  <rect class="cls-7" x="600" y="423" width="150" height="52"/>
+  <text class="cls-20" transform="translate(600 491.044)"><tspan x="0" y="0">Neut</tspan><tspan class="cls-42" x="16.2" y="0">r</tspan><tspan class="cls-24" x="18.784" y="0">al G</tspan><tspan class="cls-42" x="31.392" y="0">r</tspan><tspan x="33.976" y="0" xml:space="preserve">ay  #3F3F3F</tspan></text>
+  <rect class="cls-32" x="30" y="521" width="420" height="26"/>
+  <text class="cls-20" transform="translate(470 537.044)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-37" x="20.408" y="0">L</tspan><tspan x="23.688" y="0">Y Client (Purpl</tspan><tspan class="cls-84" x="70.879" y="0">e</tspan><tspan class="cls-52" x="74.927" y="0">-</tspan><tspan class="cls-28" x="77.278" y="0">S</tspan><tspan class="cls-76" x="81.551" y="0">c</tspan><tspan x="85.119" y="0">arl</tspan><tspan class="cls-77" x="93.966" y="0">e</tspan><tspan class="cls-24" x="97.854" y="0">t)</tspan></text>
+  <rect class="cls-23" x="30" y="565" width="420" height="26"/>
+  <text class="cls-20" transform="translate(470 581.044)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-37" x="20.408" y="0">L</tspan><tspan x="23.688" y="0">Y D</tspan><tspan class="cls-83" x="34.016" y="0">e</tspan><tspan class="cls-72" x="38.023" y="0">v</tspan><tspan x="41.728" y="0">eloper (Blu</tspan><tspan class="cls-84" x="78.375" y="0">e</tspan><tspan class="cls-66" x="82.422" y="0">-</tspan><tspan class="cls-35" x="84.534" y="0">T</tspan><tspan class="cls-55" x="88.294" y="0">e</tspan><tspan class="cls-24" x="92.15" y="0">al)</tspan></text>
+  <rect class="cls-22" x="30" y="609" width="420" height="26"/>
+  <text class="cls-20" transform="translate(470 625.044)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-37" x="20.408" y="0">L</tspan><tspan x="23.688" y="0">Y </tspan><tspan class="cls-63" x="29.096" y="0">P</tspan><tspan class="cls-28" x="33.279" y="0">artner (G</tspan><tspan class="cls-76" x="62.871" y="0">r</tspan><tspan x="65.567" y="0">een-Lime)</tspan></text>
+  <rect class="cls-21" x="30" y="653" width="420" height="26"/>
+  <text class="cls-20" transform="translate(470 669.044)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-37" x="20.408" y="0">L</tspan><tspan x="23.688" y="0">Y Neut</tspan><tspan class="cls-42" x="45.295" y="0">r</tspan><tspan class="cls-24" x="47.879" y="0">al (Indi</tspan><tspan class="cls-55" x="70.863" y="0">g</tspan><tspan class="cls-82" x="74.783" y="0">o</tspan><tspan x="79.167" y="0">-G</tspan><tspan class="cls-42" x="86.591" y="0">r</tspan><tspan x="89.175" y="0">ay)</tspan></text>
+  <text class="cls-18" transform="translate(30 722.044)"><tspan x="0" y="0">LIGHT </tspan><tspan class="cls-50" x="37.53" y="0">V</tspan><tspan x="44.524" y="0">ARIAN</tspan><tspan class="cls-40" x="79.949" y="0">T</tspan><tspan x="86.853" y="0">S (hu</tspan><tspan class="cls-85" x="115.959" y="0">e</tspan><tspan x="122.823" y="0">-loc</tspan><tspan class="cls-68" x="144.143" y="0">k</tspan><tspan x="150.902" y="0">ed tin</tspan><tspan class="cls-78" x="183.688" y="0">t</tspan><tspan x="188.537" y="0">s)</tspan></text>
+  <text class="cls-19" transform="translate(30 754.044)"><tspan x="0" y="0">Rule: any b</tspan><tspan class="cls-41" x="41.255" y="0">r</tspan><tspan x="44.162" y="0">and </tspan><tspan class="cls-46" x="60.416" y="0">c</tspan><tspan x="64.331" y="0">olor may be ligh</tspan><tspan class="cls-58" x="124.486" y="0">t</tspan><tspan x="127.402" y="0">ened, dar</tspan><tspan class="cls-45" x="162.942" y="0">k</tspan><tspan x="167.235" y="0">ened, or shi</tspan><tspan class="cls-58" x="210.804" y="0">ft</tspan><tspan x="216.023" y="0">ed in s</tspan><tspan class="cls-58" x="239.99" y="0">a</tspan><tspan x="244.4" y="0">tu</tspan><tspan class="cls-43" x="252.338" y="0">r</tspan><tspan class="cls-58" x="255.245" y="0">a</tspan><tspan x="259.655" y="0">tion — the HUE </tspan><tspan class="cls-47" x="317.929" y="0">s</tspan><tspan class="cls-46" x="321.521" y="0">t</tspan><tspan class="cls-26" x="324.374" y="0">ays </tspan><tspan class="cls-46" x="338.683" y="0">c</tspan><tspan x="342.598" y="0">on</tspan><tspan class="cls-47" x="352.399" y="0">s</tspan><tspan class="cls-46" x="355.99" y="0">t</tspan><tspan class="cls-26" x="358.843" y="0">an</tspan><tspan class="cls-86" x="368.302" y="0">t</tspan><tspan x="371.407" y="0">.</tspan></text>
+  <text class="cls-19" transform="translate(30 769.044)"><tspan x="0" y="0">Hue ancho</tspan><tspan class="cls-71" x="40.364" y="0">r</tspan><tspan x="43.451" y="0">s: </tspan><tspan class="cls-65" x="51.263" y="0">Y</tspan><tspan x="55.178" y="0">ell</tspan><tspan class="cls-71" x="64.232" y="0">o</tspan><tspan x="69.074" y="0" xml:space="preserve">w 51°  ·  Sky 205°</tspan></text>
+  <text class="cls-18" transform="translate(30 815.044)"><tspan x="0" y="0">E</tspan><tspan class="cls-69" x="7.124" y="0">X</tspan><tspan class="cls-30" x="14.417" y="0">AMPLES</tspan></text>
+  <rect class="cls-16" x="30" y="840" width="150" height="52"/>
+  <text class="cls-20" transform="translate(30 908.044)"><tspan x="0" y="0">Light </tspan><tspan class="cls-65" x="18.544" y="0">Y</tspan><tspan x="22.024" y="0">ell</tspan><tspan class="cls-72" x="30.071" y="0">o</tspan><tspan x="34.375" y="0" xml:space="preserve">w  #F7E478</tspan></text>
+  <rect class="cls-14" x="200" y="840" width="150" height="52"/>
+  <text class="cls-20" transform="translate(200 908.044)"><tspan x="0" y="0">Dark </tspan><tspan class="cls-65" x="17.288" y="0">Y</tspan><tspan class="cls-28" x="20.768" y="0">ell</tspan><tspan class="cls-72" x="28.815" y="0">o</tspan><tspan x="33.12" y="0" xml:space="preserve">w  #332B00</tspan></text>
+  <rect class="cls-3" x="410" y="840" width="150" height="52"/>
+  <text class="cls-20" transform="translate(410 908.044)"><tspan x="0" y="0" xml:space="preserve">Light Sky  #82C7F8</tspan></text>
+  <rect class="cls-11" x="580" y="840" width="150" height="52"/>
+  <text class="cls-20" transform="translate(580 908.044)"><tspan x="0" y="0" xml:space="preserve">Dark Sky  #003257</tspan></text>
+  <rect class="cls-31" x="31.125" y="219" width="560" height="26"/>
+  <text class="cls-19" transform="translate(611.054 234.407)"><tspan x="0" y="0">F1R3F</tspan><tspan class="cls-38" x="22.958" y="0">L</tspan><tspan x="26.648" y="0">Y Prima</tspan><tspan class="cls-81" x="55.16" y="0">r</tspan><tspan x="58.508" y="0">y G</tspan><tspan class="cls-41" x="70.064" y="0">r</tspan><tspan x="72.971" y="0" xml:space="preserve">adient  (</tspan><tspan class="cls-65" x="103.471" y="0">Y</tspan><tspan x="107.386" y="0">ell</tspan><tspan class="cls-73" x="116.44" y="0">o</tspan><tspan class="cls-26" x="121.282" y="0">w</tspan><tspan class="cls-53" x="127.753" y="0">-</tspan><tspan x="130.399" y="0">Sky)</tspan></text>
+</svg>
