@@ -1,8 +1,8 @@
 ---
 name: f1r3fly-brand-kit
 description: "Self-contained F1R3FLY brand system for producing on-brand deliverables — social media graphics, PDFs, presentations, documents, HTML pages, templates, and layouts. Use this whenever creating ANYTHING branded for F1R3FLY Industries or F1R3FLY.IO, or when the user references F1R3FLY colors, fonts, or logos. Contains the exact color values (June 12 2026 system), typography rules, logo fetch URLs, layout specs, and brand voice so any AI can produce brand-accurate output on the first try. Triggers on requests like 'make a F1R3FLY social post', 'F1R3FLY PDF / slide deck / one-pager', 'apply F1R3FLY branding', 'use the F1R3FLY brand rules', or 'make this look like F1R3FLY'."
-version: "1.1"
-updated: "2026-06-20"
+version: "1.2"
+updated: "2026-09-20"
 ---
 
 # F1R3FLY Brand Kit
@@ -31,7 +31,7 @@ You are about to make something for F1R3FLY. Before you produce anything, confir
 - **Only the primary palette leads** (Black, White, Brand Yellow, Brand Sky). The secondary colors are audience/topic coding only — never the dominant color of a layout.
 - **Never redraw, recolor, retype, or approximate a logo.** Fetch the real file from the URLs in Links and resources / Section 5. If you can't fetch it, leave a clearly labeled empty frame and tell the user. Never substitute a lookalike or a font-typed wordmark.
 - **The icon alone is not the logo.** The bug (.IO) or knot (Industries) on its own may only be used as a profile badge/avatar/favicon, or as a supporting element inside a piece where the full logo already appears. Never as the standalone mark on a cover or a public-facing piece. Full rule in Section 5.
-- **Typography:** Josefin Sans for headings/UI, Source Sans 3 for body. Never typeset Brandon Grotesque — it exists only inside the fixed, outlined logo files.
+- **Typography:** League Spartan for headings/UI, Source Sans 3 for body. Never typeset Brandon Grotesque — it exists only inside the fixed, outlined logo files.
 - **Keep it spacious.** Gradient accents are used sparingly — a few well-placed touches, never everywhere. Let elements breathe against the black.
 - **Positioning is evidence-first, not token-first.** Never frame F1R3FLY as crypto/blockchain hype.
 - **If you cannot comply** with any rule (missing font, can't reach a logo, user asked for an off-brand color), say so plainly and offer the on-brand alternative. Do not silently improvise.
@@ -45,7 +45,7 @@ You are about to make something for F1R3FLY. Before you produce anything, confir
 | Surface | True black `#000000` |
 | Primary colors | White `#FFFFFF`, Brand Yellow `#F3D630`, Brand Sky `#3FA9F5` |
 | Signature gradient | Yellow `#F3D630` → Sky `#3FA9F5` (left to right) |
-| Headings / display / UI | Josefin Sans |
+| Headings / display / UI | League Spartan |
 | Body text | Source Sans 3 |
 | Logo wordmark font | Brandon Grotesque — **outlined in logo files only, never typed** |
 | Industries logo | Trefoil knot ("The Mark") |
@@ -144,10 +144,12 @@ Any brand color may be lightened, darkened, or shifted in saturation — **the h
 
 Two free fonts do all the editable work. The third exists only inside logo files.
 
-### Josefin Sans — headings, display, UI
+### League Spartan — headings, display, UI
 
+Replaced Josefin Sans brand-wide on 2026-09-20. Josefin is retired; ignore any older material that names it.
 Google Fonts, SIL Open Font License (free, no licensing friction).
-Web: `https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap`
+Web: `https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700&display=swap`
+Only four weights are in the system: Light, Regular, SemiBold, Bold. Never Thin, ExtraLight, Medium or Black. In Canva, use the uploaded Brand Kit weights, not the built-in single-weight entry.
 
 | Weight | Use for |
 |--------|---------|
@@ -161,7 +163,7 @@ Web: `https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400
 Google Fonts (formerly Source Sans Pro), SIL OFL (free). Light/Regular for body copy, Bold for body headers.
 Web: `https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap`
 
-The **page-header font is variable** — it can be Josefin Sans or Source Sans 3 depending on the piece. Ask the user which they want for headers if it isn't specified.
+The **page-header font is variable** — it can be League Spartan or Source Sans 3 depending on the piece. Ask the user which they want for headers if it isn't specified.
 
 ### Brandon Grotesque — logos only
 
@@ -192,7 +194,7 @@ f1r3fly-brand-portal/
 │   # f1r3fly-io-{lockup}-{variant}.{svg|png|pdf}
 │   # lockups: horizontal-logo, vertical-logo, bug-icon, circle-icon
 │   # variants: color-on-dark, white, white-background, BW-white-background
-├── f1r3fly-brand-fonts/               # Josefin Sans ×5, Source Sans 3 ×3 (free)
+├── f1r3fly-brand-fonts/               # League Spartan ×4 (Light/Regular/SemiBold/Bold), Source Sans 3 ×3 (free); Josefin files there are legacy
 ├── templates/                         # layout grid + social templates
 ├── F1R3FLY INDUSTRIES-Brand Style Guide.pdf
 └── F1R3FLY.IO-Brand Guidebook.pdf
@@ -270,13 +272,13 @@ Use the layout grid file in the portal `templates/` folder (see Links and resour
 | Element | Spec |
 |---------|------|
 | Background | `#000000` |
-| Page title | Large (~36pt), Josefin Bold, ALL-CAPS, letter-spaced, white, top of page |
+| Page title | Large (~36pt), League Spartan Bold, ALL-CAPS, letter-spaced, white, top of page |
 | Title underline | Brand gradient stroke, 0.5px, full content width, with air below the title |
-| Subheader | Josefin SemiBold, ALL-CAPS, Brand Yellow, smaller (~12pt) |
+| Subheader | League Spartan SemiBold, ALL-CAPS, Brand Yellow, smaller (~12pt) |
 | Body | Below subheader, in columns per the grid |
 | Title zone | Should occupy ~15–20% of page height — let it breathe |
 | Footer right | `© F1R3FLY INDUSTRIES, [year]. All Rights Reserved \| [Date]` |
-| Footer style | Josefin Bold, small (~7pt), light neutral gray `#C5C5C5` |
+| Footer style | League Spartan Bold, small (~7pt), light neutral gray `#C5C5C5` |
 
 > Footer/caption color is a light neutral gray (`#C5C5C5`) for legibility on black. The brand books specify sage here, but **sage is retired** — do not use `#8BB999`.
 
@@ -360,7 +362,7 @@ Rule: lighten, darken, or shift saturation, but keep the hue constant. Each row 
 
 | Field | Value |
 |-------|-------|
-| Kit version | 1.1 (June 20, 2026) |
+| Kit version | 1.2 (September 20, 2026) — League Spartan replaces Josefin Sans |
 | Color authority | f1r3fly-brand-color-system-06.12.2026 (sage retired June 10; black = #000000) |
 | Type / logo / layout source | F1R3FLY brand books (Mar–Apr 2026, being revised) + F1R3FLY brand system; color values overridden by the June 12 system |
 | Maintainer | Hannah Adams, Creative Director, F1R3FLY |

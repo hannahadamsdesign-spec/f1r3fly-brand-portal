@@ -38,7 +38,7 @@ Formats: SVG · PNG · PDF. The icon alone is a badge — use the full logo on c
 - **Colors:** Black `#000000`, White `#FFFFFF`, Brand Yellow `#F3D630`, Brand Sky `#3FA9F5`. Signature gradient runs yellow → sky.
   - [Color system PDF](F1R3FLY-Industries-Brand-Assets/f1r3fly-brand-color-system-06.12.2026.pdf)
   - [Swatch pack (.zip)](swatches/f1r3fly-brand-swatches.zip) — drops the palette into Illustrator, Photoshop, and Canva
-- **Fonts:** [Josefin Sans + Source Sans 3](f1r3fly-brand-fonts) (free, SIL OFL). Josefin for headings/UI, Source Sans 3 for body. Never typeset Brandon Grotesque — it lives only inside the logo files.
+- **Fonts:** [League Spartan + Source Sans 3](f1r3fly-brand-fonts) (free, SIL OFL). League Spartan (Light, Regular, SemiBold, Bold) for headings/UI, Source Sans 3 for body. League Spartan replaced Josefin Sans on 2026-09-20. Never typeset Brandon Grotesque — it lives only inside the logo files.
 
 ## Templates & grid
 
@@ -73,7 +73,7 @@ f1r3fly-brand-portal/
 ├── F1R3FLY-Industries-Brand-Assets/   knot logos + color system + swatches
 ├── F1R3FLY-IO-Brand-Assets/           bug logos (+ social-media/)
 ├── F1r3lang-Brand-Assets/             f1r3lang wordmark (color / white / black)
-├── f1r3fly-brand-fonts/               Josefin Sans + Source Sans 3
+├── f1r3fly-brand-fonts/               League Spartan + Source Sans 3
 ├── templates/                         layout grid + social templates
 ├── swatches/                          Illustrator / Photoshop / Canva swatch pack
 ├── f1r3fly-brand-kit/                 AI brand kit (skill + spec)
