@@ -87,7 +87,9 @@ Everything an AI or a teammate needs to pull real assets and check their work.
 
 The trefoil knot is never used on .IO materials; the firefly bug is never used on Industries materials.
 
-**f1r3lang** (the language, formerly Rholang) has its own wordmark, not an icon. Lowercase, always written `f1r3lang`. Files are in the portal's `F1r3lang-Brand-Assets/` folder: `f1r3lang-logo-{variant}.{svg|png|pdf}`, variants `color-on-dark`, `color-on-light`, `white`, `black`, plus solid-background versions (`color-on-black-solid`, `color-on-white-solid`, `white-on-black-solid`, `black-on-white-solid`). The wordmark's gradient is part of the artwork; do not lift its colors into a layout. Use it for language and developer material, alongside the F1R3FLY.IO logo when both appear. All sub-brands (F1R3FLY.IO, F1R3FLY Limited, Sports, Medical, Arts/Entertainment) inherit the same colors, typography, dark surface, and layout — they may add a sector accent color, but the foundation does not change.
+All sub-brands (F1R3FLY.IO, F1R3FLY Limited, Sports, Medical, Arts/Entertainment) inherit the same colors, typography, dark surface, and layout — they may add a sector accent color, but the foundation does not change.
+
+**f1r3lang** (the language, formerly Rholang) has its own wordmark, not an icon. Lowercase, always written `f1r3lang`. Files are in the portal's `F1r3lang-Brand-Assets/` folder: `f1r3lang-logo-{variant}.{svg|png|pdf}`, variants `color-on-dark`, `color-on-light`, `white`, `black`, plus solid-background versions (`color-on-black-solid`, `color-on-white-solid`, `white-on-black-solid`, `black-on-white-solid`). The wordmark's gradient is part of the artwork; do not lift its colors into a layout. Use it for language and developer material, alongside the F1R3FLY.IO logo when both appear.
 
 ---
 
