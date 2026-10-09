@@ -1,8 +1,8 @@
 ---
 name: f1r3fly-brand-kit
 description: "Self-contained F1R3FLY brand system for producing on-brand deliverables — social media graphics, PDFs, presentations, documents, HTML pages, templates, and layouts. Use this whenever creating ANYTHING branded for F1R3FLY Industries or F1R3FLY.IO, or when the user references F1R3FLY colors, fonts, or logos. Contains the exact color values (June 12 2026 system), typography rules, logo fetch URLs, layout specs, and brand voice so any AI can produce brand-accurate output on the first try. Triggers on requests like 'make a F1R3FLY social post', 'F1R3FLY PDF / slide deck / one-pager', 'apply F1R3FLY branding', 'use the F1R3FLY brand rules', or 'make this look like F1R3FLY'."
-version: "1.2"
-updated: "2026-09-20"
+version: "1.3"
+updated: "2026-10-09"
 ---
 
 # F1R3FLY Brand Kit
@@ -60,21 +60,17 @@ You are about to make something for F1R3FLY. Before you produce anything, confir
 Everything an AI or a teammate needs to pull real assets and check their work.
 
 **Brand portal (browse all assets)**
-- Portal repo: https://github.com/F1R3FLY-io/f1r3fly-brand-portal
-- Portal site: https://f1r3fly-io.github.io/f1r3fly-brand-portal/
+- Portal repo: https://github.com/hannahadamsdesign-spec/f1r3fly-brand-portal
+- Portal site: https://hannahadamsdesign-spec.github.io/f1r3fly-brand-portal/
 
 **Logos**
-- F1R3FLY Industries logos (knot): https://github.com/F1R3FLY-io/f1r3fly-brand-portal/tree/main/F1R3FLY-Industries-Brand-Assets
-- F1R3FLY.IO logos (bug): https://github.com/F1R3FLY-io/f1r3fly-brand-portal/tree/main/F1R3FLY-IO-Brand-Assets
-- Raw fetch base (for AI / programmatic download): `https://raw.githubusercontent.com/F1R3FLY-io/f1r3fly-brand-portal/main/`
+- F1R3FLY Industries logos (knot): https://github.com/hannahadamsdesign-spec/f1r3fly-brand-portal/tree/main/F1R3FLY-Industries-Brand-Assets
+- F1R3FLY.IO logos (bug): https://github.com/hannahadamsdesign-spec/f1r3fly-brand-portal/tree/main/F1R3FLY-IO-Brand-Assets
+- Raw fetch base (for AI / programmatic download): `https://raw.githubusercontent.com/hannahadamsdesign-spec/f1r3fly-brand-portal/main/`
 
-**Layout grid** (kept at a stable path — updated by saving over the same file)
-- Browse: https://github.com/F1R3FLY-io/f1r3fly-brand-portal/tree/main/templates
-- Direct: `https://raw.githubusercontent.com/F1R3FLY-io/f1r3fly-brand-portal/main/templates/brand-layout-grid.svg`
-
-**Brand books** (deeper reference — see the caveat in Section 9; both are being revised next)
-- F1R3FLY Industries — Brand Style Guide (PDF): https://github.com/F1R3FLY-io/f1r3fly-brand-portal/blob/main/F1R3FLY%20INDUSTRIES-Brand%20Style%20Guide.pdf
-- F1R3FLY.IO — Brand Guidebook (PDF): https://github.com/F1R3FLY-io/f1r3fly-brand-portal/blob/main/F1R3FLY.IO-Brand%20Guidebook.pdf
+**Brand books** (deeper reference — Section 9; September 23, 2026 editions)
+- F1R3FLY Industries — Brand Style Guide (PDF): https://github.com/hannahadamsdesign-spec/f1r3fly-brand-portal/blob/main/F1R3FLY%20INDUSTRIES-Brand%20Style%20Guide.pdf
+- F1R3FLY.IO — Brand Guidebook (PDF): https://github.com/hannahadamsdesign-spec/f1r3fly-brand-portal/blob/main/F1R3FLY.IO-Brand%20Guidebook.pdf
 
 **Check your work**
 - Contrast checker (WCAG AA/AAA): https://webaim.org/resources/contrastchecker/
@@ -89,7 +85,9 @@ Everything an AI or a teammate needs to pull real assets and check their work.
 | **F1R3FLY Industries** | Parent / master brand | Trefoil knot | F1R3FLY INDUSTRIES |
 | **F1R3FLY.IO** | Developer platform (sub-brand) | Firefly bug | F1R3FLY.IO |
 
-The trefoil knot is never used on .IO materials; the firefly bug is never used on Industries materials. All sub-brands (F1R3FLY.IO, F1R3FLY Limited, Sports, Medical, Arts/Entertainment) inherit the same colors, typography, dark surface, and layout — they may add a sector accent color, but the foundation does not change.
+The trefoil knot is never used on .IO materials; the firefly bug is never used on Industries materials.
+
+**f1r3lang** (the language, formerly Rholang) has its own wordmark, not an icon. Lowercase, always written `f1r3lang`. Files are in the portal's `F1r3lang-Brand-Assets/` folder: `f1r3lang-logo-{variant}.{svg|png|pdf}`, variants `color-on-dark`, `color-on-light`, `white`, `black`, plus solid-background versions (`color-on-black-solid`, `color-on-white-solid`, `white-on-black-solid`, `black-on-white-solid`). The wordmark's gradient is part of the artwork; do not lift its colors into a layout. Use it for language and developer material, alongside the F1R3FLY.IO logo when both appear. All sub-brands (F1R3FLY.IO, F1R3FLY Limited, Sports, Medical, Arts/Entertainment) inherit the same colors, typography, dark surface, and layout — they may add a sector accent color, but the foundation does not change.
 
 ---
 
@@ -142,7 +140,7 @@ Any brand color may be lightened, darkened, or shifted in saturation — **the h
 
 ## 4. Typography — what to use and when
 
-Two free fonts do all the editable work. The third exists only inside logo files.
+Two free Google Fonts do all the editable work. The third exists only inside logo files.
 
 ### League Spartan — headings, display, UI
 
@@ -160,7 +158,7 @@ Only four weights are in the system: Light, Regular, SemiBold, Bold. Never Thin,
 
 ### Source Sans 3 — body
 
-Google Fonts (formerly Source Sans Pro), SIL OFL (free). Light/Regular for body copy, Bold for body headers.
+Google Fonts (formerly Source Sans Pro), SIL OFL (free). **Regular (400) for body copy** (changed from Light 300 on 2026-09-26). Bold (700) for body headers. Light (300) only for large pull quotes, never for running text.
 Web: `https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap`
 
 The **page-header font is variable** — it can be League Spartan or Source Sans 3 depending on the piece. Ask the user which they want for headers if it isn't specified.
@@ -194,14 +192,15 @@ f1r3fly-brand-portal/
 │   # f1r3fly-io-{lockup}-{variant}.{svg|png|pdf}
 │   # lockups: horizontal-logo, vertical-logo, bug-icon, circle-icon
 │   # variants: color-on-dark, white, white-background, BW-white-background
-├── f1r3fly-brand-fonts/               # League Spartan ×4 (Light/Regular/SemiBold/Bold), Source Sans 3 ×3 (free); Josefin files there are legacy
-├── templates/                         # layout grid + social templates
+├── f1r3fly-brand-fonts/               # League Spartan ×4 (Light/Regular/SemiBold/Bold), Source Sans 3 ×3 (free Google Fonts)
+├── F1r3lang-Brand-Assets/             # f1r3lang wordmark
+├── templates/                         # social templates
 ├── F1R3FLY INDUSTRIES-Brand Style Guide.pdf
 └── F1R3FLY.IO-Brand Guidebook.pdf
 ```
 
 **Example fetch** (Industries vertical logo, for a dark title slide):
-`https://raw.githubusercontent.com/F1R3FLY-io/f1r3fly-brand-portal/main/F1R3FLY-Industries-Brand-Assets/f1r3fly-industries-vertical-logo-color-on-dark.png`
+`https://raw.githubusercontent.com/hannahadamsdesign-spec/f1r3fly-brand-portal/main/F1R3FLY-Industries-Brand-Assets/f1r3fly-industries-vertical-logo-color-on-dark.png`
 
 ### How to access files — formats and variants
 
@@ -260,11 +259,14 @@ When unsure, use the full logo. The icon-alone exceptions are for badges and for
 
 ## 6. Layout, grid, and footer
 
-Use the layout grid file in the portal `templates/` folder (see Links and resources) as the working grid. It is kept at a stable path and updated by saving over the same file.
-
 ### Grid
 
-- **6 columns.** Margins **8.3%** of page width each side. Gutters **2%** of width.
+Build every layout on this grid. The rules below are the grid; you do not need a grid file.
+
+- **6 columns.** Margins **8.3%** of page width on each side. Gutters **2%** of page width.
+- That leaves a content width of 83.4%, five gutters of 2% each, and six columns of about **12.23%** of page width each.
+- Worked example, 1080 px square: margins ≈ 90 px, gutters ≈ 22 px, columns ≈ 132 px.
+- Worked example, 1920 × 1080 slide: margins ≈ 159 px, gutters ≈ 38 px, columns ≈ 235 px.
 - Common content splits on the 6-col grid: full 6, or 4+2, 3+3, 2+2+2.
 
 ### Page anatomy (PDF / print, A4 landscape unless told otherwise)
@@ -280,7 +282,7 @@ Use the layout grid file in the portal `templates/` folder (see Links and resour
 | Footer right | `© F1R3FLY INDUSTRIES, [year]. All Rights Reserved \| [Date]` |
 | Footer style | League Spartan Bold, small (~7pt), light neutral gray `#C5C5C5` |
 
-> Footer/caption color is a light neutral gray (`#C5C5C5`) for legibility on black. The brand books specify sage here, but **sage is retired** — do not use `#8BB999`.
+> Footer/caption color is a light neutral gray (`#C5C5C5`) for legibility on black. **Sage `#8BB999` is retired** — never use it, even if an old file shows it.
 
 ### Vertical spacing (the brand's spacious feel)
 
@@ -300,6 +302,13 @@ Use the layout grid file in the portal `templates/` folder (see Links and resour
 
 When making icons for a deliverable: use the brand gradient (Yellow → Sky) or single brand colors. Keep them simple, geometric, and consistent with the clean modern aesthetic. SVG preferred.
 
+### App icons, favicons and menu-bar icons
+
+- **App icon / favicon:** the entity icon on its own is allowed here (Section 5). For .IO software use the `circle-icon-color-on-dark` bug; for Industries, the knot circle icon. Build platform icon sets (macOS `.icns`, iOS, favicon sizes) from the SVG, never from a scaled-down PNG.
+- **Menu-bar / status-bar icons:** single color only. On macOS this means a black-and-transparent "template" image that the system tints for light and dark menu bars; no gradient, no brand color. Draw it from the icon's silhouette and check it at 16–18 pt.
+- **Status indicators** (running, warning, error) are small dots or badges added to the icon, not emoji and not a separate symbol.
+- **Product-specific icons** (for example individual F1R3FLY apps or services) are designed by the Creative Director. If one is missing, leave a labeled placeholder and say so; do not invent a mark.
+
 ---
 
 ## 8. Brand voice
@@ -318,10 +327,10 @@ When making icons for a deliverable: use the brand gradient (Yellow → Sky) or 
 
 For anything not covered here (detailed logo geometry, clearspace diagrams, brand architecture, philosophy), see the published brand books (links in Links and resources):
 
-- **F1R3FLY INDUSTRIES — Brand Style Guide** (March 27, 2026) — trefoil-knot master brand.
-- **F1R3FLY.IO — Brand Guidebook** (April 6, 2026) — firefly-bug developer platform.
+- **F1R3FLY INDUSTRIES — Brand Style Guide** (September 23, 2026 edition) — trefoil-knot master brand.
+- **F1R3FLY.IO — Brand Guidebook** (September 23, 2026 edition) — firefly-bug developer platform.
 
-> **Two caveats.** (1) Both books predate the June 12, 2026 color system. They still show the old Yellow → Sage → Sky gradient and list Brand Sage `#8BB999` as a core color. **For color, this skill is authoritative — ignore sage and the three-stop gradient in the books.** (2) The books are being revised. Use them for logo geometry, grid, clearspace, brand architecture, and voice; for color, typography, and the icon-alone rule, this skill is the current word.
+Both books are current: League Spartan headings, Source Sans 3 body, the June 12 color system. Use them for logo geometry, clearspace diagrams, brand architecture and philosophy. If a book and this skill ever disagree, this skill wins, and say so.
 
 ---
 
@@ -362,9 +371,9 @@ Rule: lighten, darken, or shift saturation, but keep the hue constant. Each row 
 
 | Field | Value |
 |-------|-------|
-| Kit version | 1.2 (September 20, 2026) — League Spartan replaces Josefin Sans |
+| Kit version | 1.3 (October 9, 2026) — grid rules in place of the grid file, body weight 400, current brand books, f1r3lang, app and menu-bar icons |
 | Color authority | f1r3fly-brand-color-system-06.12.2026 (sage retired June 10; black = #000000) |
-| Type / logo / layout source | F1R3FLY brand books (Mar–Apr 2026, being revised) + F1R3FLY brand system; color values overridden by the June 12 system |
+| Type / logo / layout source | F1R3FLY brand books (September 23, 2026 editions) + F1R3FLY brand system |
 | Maintainer | Hannah Adams, Creative Director, F1R3FLY |
 
-When the brand changes, update the values here — the structure stays the same. The brand books and layout grid are slated for revision; keep their portal paths/filenames stable so these links don't break.
+When the brand changes, update the values here — the structure stays the same. Keep the portal paths and filenames stable so these links don't break.

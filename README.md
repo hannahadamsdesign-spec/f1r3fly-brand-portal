@@ -2,7 +2,7 @@
 
 **Every F1R3FLY logo, color, and font — in one place.**
 
-*Last update: September 14, 2026*
+*Last update: October 9, 2026*
 
 [**→ Open the visual brand portal**](https://f1r3fly-io.github.io/f1r3fly-brand-portal/)
 
