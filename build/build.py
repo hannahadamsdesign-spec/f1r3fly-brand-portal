@@ -170,7 +170,7 @@ def side_nav(root, current=''):
     return ('<nav class="side" aria-label="Sections">'
             + a('index.html#books', 'Brand Books', False, 'books') + '<div class="gap"></div>'
             + a('index.html#logos', 'Primary Logos', False, 'logos') + a('logos/index.html#ff-io', 'F1R3FLY.IO', True, 'ff.io') + a('logos/index.html#ff-indust', 'F1R3FLY INDUSTRIES', True, 'ff.indust') + a('logos/index.html#flang', 'F1R3L@NG', True, 'flang') + '<div class="gap"></div>'
-            + a('index.html#products', 'Product Logos', False, 'products') + a('logos/index.html#ign', 'ign1t10n', True, 'ign') + '<span class="sub soon">More coming</span><div class="gap"></div>'
+            + a('index.html#products', 'Product Logos', False, 'products') + a('logos/index.html#ign', 'ign1t10n', True, 'ign') + a('logos/index.html#starf1r3', 'Starf1r3', True, 'starf1r3') + '<span class="sub soon">More coming</span><div class="gap"></div>'
             + a('index.html#system', 'Color, Fonts and Layout', False, 'system') + '<div class="gap"></div>'
             + a('index.html#social', 'Social Media Assets', False, 'social') + a('logos/index.html#posts', 'Post templates', True, 'posts') + '</nav>')
 
@@ -201,7 +201,7 @@ WHICH = ('<div class="which"><h3>Which file?</h3>'
          '<div><b>Email signatures, quick drops:</b> JPG (background baked in).</div>'
          '<div><b>Not sure:</b> ALL (zip) has every format.</div></div>')
 
-ANCHOR = {'ff.io': 'ff-io', 'ff.indust': 'ff-indust', 'flang': 'flang', 'ign': 'ign'}
+ANCHOR = {'ff.io': 'ff-io', 'ff.indust': 'ff-indust', 'flang': 'flang', 'ign': 'ign', 'starf1r3': 'starf1r3'}
 SCROLLSPY = """<script>
 (function(){var links=[].slice.call(document.querySelectorAll('nav.side a[data-key]'));var secs=[].slice.call(document.querySelectorAll('[data-spy]'));if(!secs.length)return;
 var crumb=document.getElementById('crumb-here');
@@ -283,14 +283,14 @@ def home(dims):
 <div class="btns"><a class="btn primary" href="logos/index.html#{ANCHOR[key]}">See all variants</a><a class="btn" href="{f}/{br['card_img'][:-4]}.zip" download>Download the main logo</a></div></div></div>"""
     nav = side_nav('')
     main = []
-    main.append('<div class="intro" style="padding-top:0"><p>Pick a category, preview the file, and download it. Three brands live here: F1R3FLY Industries (the trefoil knot), F1R3FLY.IO (the firefly bug), and f1r3lang (the language, formerly Rholang). Below them, the product logos, starting with ign1t10n, the installer.</p></div>')
+    main.append('<div class="intro" style="padding-top:0"><p>Pick a category, preview the file, and download it. Three brands live here: F1R3FLY Industries (the trefoil knot), F1R3FLY.IO (the firefly bug), and f1r3lang (the language, formerly Rholang). Below them, the product logos: ign1t10n, the installer, and Starf1r3, the browser.</p></div>')
     # books
     main.append(f"""<section id="books" data-spy="books" data-title="Brand books"><div class="section-head"><h2>Brand books</h2><span class="hint">The deep reference for each brand</span></div><div class="grid">
 <div class="card"><div class="well book"><img class="cover" src="books/ff.indust-brand-book-cover.png" alt="F1R3FLY Industries Brand Book cover"></div><div class="body"><h3>F1R3FLY Industries</h3><div class="meta">Brand Book &middot; November 6, 2026 &middot; 20 pages</div><div class="desc">The master-brand rulebook for the trefoil knot. Logo construction and clear space, brand architecture, the layout grid, color, typography, accessibility, and a Downloads page that links back here.</div><div class="btns"><a class="btn primary" href="books/ff.indust-brand-book-2026-11.pdf" download>Download PDF</a></div></div></div>
 <div class="card"><div class="well book"><img class="cover" src="books/ff.io-brand-book-cover.png" alt="F1R3FLY.IO Brand Book cover"></div><div class="body"><h3>F1R3FLY.IO</h3><div class="meta">Brand Book &middot; November 6, 2026 &middot; 22 pages</div><div class="desc">The developer-platform rulebook for the firefly bug. The same depth as the Industries book, tuned for F1R3FLY.IO.</div><div class="btns"><a class="btn primary" href="books/ff.io-brand-book-2026-11.pdf" download>Download PDF</a></div></div></div>
 </div></section>""")
     main.append(f'<section id="logos" data-spy="logos" data-title="Primary logos"><div class="section-head"><h2>Primary logos</h2><span class="hint">Click a brand to see every variant on its own background</span></div><div class="grid">{brand_card("ff.io")}{brand_card("ff.indust")}{brand_card("flang")}</div></section>')
-    main.append(f'<section id="products" data-spy="products" data-title="Product logos"><div class="section-head"><h2>Product logos</h2><span class="hint">Marks for the things built on F1R3FLY</span></div><div class="grid">{brand_card("ign")}</div><p class="more">More coming</p></section>')
+    main.append(f'<section id="products" data-spy="products" data-title="Product logos"><div class="section-head"><h2>Product logos</h2><span class="hint">Marks for the things built on F1R3FLY</span></div><div class="grid">{brand_card("ign")}{brand_card("starf1r3")}</div><p class="more">More coming</p></section>')
     main.append("""<section id="system" data-spy="system" data-title="Color, fonts and layout"><div class="section-head"><h2>Color, fonts and layout</h2><span class="hint">The system everything is built on</span></div><div class="grid">
 <div class="card"><div class="well" style="padding:0"><div class="swrow"><span style="background:#000;border-right:1px solid #0d3050"></span><span style="background:#fff"></span><span style="background:#f3d630"></span><span style="background:#3fa9f5"></span></div></div><div class="body"><h3>Colors</h3><div class="desc">Black <code>#000000</code>, White, Brand Yellow <code>#F3D630</code>, and Brand Sky <code>#3FA9F5</code>, with the signature gradient running yellow &rarr; sky. The PDF shows the full system; the swatch pack drops the palette into Illustrator, Photoshop, and Canva.</div><div class="btns"><a class="btn primary" href="system/ff-color-system-2026-06.pdf" download>Color system (PDF)</a><a class="btn" href="system/ff-swatches.zip" download>Swatch pack (zip)</a></div></div></div>
 <div class="card"><div class="well" style="flex-direction:column;gap:7px;align-items:flex-start;padding:30px 32px"><span style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:2rem;line-height:1">League Spartan</span><span style="font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.14em;color:var(--yellow)">HEADINGS &middot; UI</span><span style="font-size:1.08rem;color:var(--text-dim);margin-top:10px">Source Sans 3 &middot; body text</span></div><div class="body"><h3>Fonts</h3><div class="desc">League Spartan (Light, Regular, SemiBold, Bold) for headings and UI; Source Sans 3 for body text. Both free under the SIL Open Font License. Brandon Grotesque lives only inside the logo files; never typeset it yourself.</div><div class="btns"><a class="btn primary" href="fonts/ff-fonts.zip" download>Download fonts (zip)</a><a class="btn" href="https://fonts.google.com/specimen/League+Spartan" target="_blank" rel="noopener">Google Fonts</a></div></div></div>
@@ -343,7 +343,7 @@ Last update: {UPDATE}. Reorganised 2026-11-06: new folder layout, new file names
 [brand]-[piece]-[layout]-[colorway]-[background].[ext]
 ```
 
-- brand: `ff.io` (F1R3FLY.IO), `ff.indust` (F1R3FLY Industries), `flang` (f1r3lang), `ign` (ign1t10n)
+- brand: `ff.io` (F1R3FLY.IO), `ff.indust` (F1R3FLY Industries), `flang` (f1r3lang), `ign` (ign1t10n), `starf1r3` (Starf1r3)
 - piece: `logo` (mark + wordmark), `icon` (mark alone), `avatar`, `post`, `canva`
 - layout: `wide`, `stacked`, `circle` (the mark inside a black circle), `ring`, `square`
 - colorway: `color`, `white`, `black`

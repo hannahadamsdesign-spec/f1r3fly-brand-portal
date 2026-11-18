@@ -4,7 +4,7 @@ Live site: **https://hannahadamsdesign-spec.github.io/f1r3fly-brand-portal/**
 
 Everything for the F1R3FLY brands in one place: the brand books, every logo variant with a preview and a download in PDF, JPG, SVG, PNG or all four zipped, the color system, fonts, the layout grid, social templates, and the AI brand kit.
 
-Last update: November 6, 2026. Reorganised 2026-11-06: new folder layout, new file names, one preview page per brand.
+Last update: November 18, 2026. Reorganised 2026-11-06: new folder layout, new file names, one preview page per brand.
 
 ## Where things are
 
@@ -14,6 +14,7 @@ Last update: November 6, 2026. Reorganised 2026-11-06: new folder layout, new fi
 | **[F1R3FLY Industries →](logos/ff.indust/)** | `logos/ff.indust/` | 14 variants |
 | **[f1r3lang →](logos/flang/)** | `logos/flang/` | 8 variants |
 | **[ign1t10n →](products/ign/)** | `products/ign/` | 7 variants |
+| **[Starf1r3 →](products/starf1r3/)** | `products/starf1r3/` | 2 variants |
 
 - `books/` the two brand books (PDF, November 6, 2026 editions, both titled Brand Book) and their cover images
 - `system/` color system PDF, swatch pack, layout grid
@@ -30,7 +31,7 @@ Last update: November 6, 2026. Reorganised 2026-11-06: new folder layout, new fi
 [brand]-[piece]-[layout]-[colorway]-[background].[ext]
 ```
 
-- brand: `ff.io` (F1R3FLY.IO), `ff.indust` (F1R3FLY Industries), `flang` (f1r3lang), `ign` (ign1t10n)
+- brand: `ff.io` (F1R3FLY.IO), `ff.indust` (F1R3FLY Industries), `flang` (f1r3lang), `ign` (ign1t10n), `starf1r3` (Starf1r3)
 - piece: `logo` (mark + wordmark), `icon` (mark alone), `avatar`, `post`, `canva`
 - layout: `wide`, `stacked`, `circle` (the mark inside a black circle), `ring`, `square`
 - colorway: `color`, `white`, `black`
@@ -90,6 +91,8 @@ Raw file base for scripts and AI tools: `https://raw.githubusercontent.com/hanna
 - `ign1t10n-vertical-logo-color-on-dark` → `ign-logo-stacked-color-transp-dark`
 - `ign1t10n-vertical-logo-white` → `ign-logo-stacked-white-transp-dark`
 - `ign1t10n-vertical-logo-black` → `ign-logo-stacked-black-transp-light`
+- `(new)` → `starf1r3-icon-app-color-onblack`
+- `(new)` → `starf1r3-icon-star-color-transp`
 - `f1r3fly-io-social-square-1080-announcement-dark-orb` → `ff.io-post-square-announcement-dark-orb`
 - `f1r3fly-io-social-square-1080-announcement-section-teal` → `ff.io-post-square-announcement-section-teal`
 - `f1r3fly-io-social-square-1080-article-dark-orb` → `ff.io-post-square-article-dark-orb`

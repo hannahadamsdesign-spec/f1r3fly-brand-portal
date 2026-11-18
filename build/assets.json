@@ -1,5 +1,5 @@
 {
- "last_update": "November 6, 2026",
+ "last_update": "November 18, 2026",
  "brands": {
   "ff.io": {
    "title": "F1R3FLY.IO",
@@ -450,6 +450,47 @@
        "old": "ign1t10n-vertical-logo-black",
        "name": "Stacked, all black, for light backgrounds",
        "bg": "light"
+      }
+     ]
+    }
+   ]
+  },
+  "starf1r3": {
+   "title": "Starf1r3",
+   "short": "Starf1r3",
+   "group": "Product logos",
+   "group_anchor": "products",
+   "folder": "products/starf1r3",
+   "source_folder": null,
+   "card_img": "starf1r3-icon-star-color-transp.svg",
+   "card_desc": "The browser. The five-petal star as the app icon on its black tile, and the star alone on transparent. Wordmark and lockups to come. 2 variants.",
+   "intro": "The browser. The star is the final mark; the wordmark and lockups are still to come. Each file downloads as PDF, JPG, SVG, PNG, or all four zipped.",
+   "sections": [
+    {
+     "title": "App icon",
+     "hint": "The star on the black app tile, 1024 x 1024. Dock, taskbar, installer.",
+     "assets": [
+      {
+       "new": "starf1r3-icon-app-color-onblack",
+       "old": null,
+       "src_svg": "NEW/starf1r3-icon-app-color-onblack.svg",
+       "name": "App icon, color on black tile",
+       "bg": "dark",
+       "note": "New, 2026-11-18"
+      }
+     ]
+    },
+    {
+     "title": "Icon",
+     "hint": "The star alone, transparent. For decks, documents and the web.",
+     "assets": [
+      {
+       "new": "starf1r3-icon-star-color-transp",
+       "old": null,
+       "src_svg": "NEW/starf1r3-icon-star-color-transp.svg",
+       "name": "Star, color, transparent",
+       "bg": "dark",
+       "note": "New, 2026-11-18"
       }
      ]
     }
